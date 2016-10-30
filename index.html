@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> About Me</title>
+	<link rel="stylesheet" type="text/css" href="Assets/Css/reset.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="Assets/Css/style.css">
+	<link rel="stylesheet" type="text/css" href="Assets/Css/PersonalStyle.css">
+
+</head>
+<body class="bodyBackground">
+	<!-- Header with nav and Navbar -->
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="row"> <!-- setting name and nav bar as a row inside the header -->
+					<div class="col-lg-1"></div> <!-- creating left padding -->
+		    		
+		    		<!-- header bar -->
+		    		<div class="col-lg-10">
+		    			<!-- Name and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					        	<span class="icon-bar"></span>
+					        	<span class="icon-bar"></span>
+					        	<span class="icon-bar"></span> 
+						    </button>
+					    	<p class="navbar-brand" id="nameHeader">Faras A. Momin</p>
+					    </div>
+					    
+				   		<!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+					      	<ul class="nav navbar-nav">
+					        	<li id="navBarLabels"><a href="index.html">About</a></li>
+					        	<li id="navBarLabels"><a href="portfolio.html">Portfolio</a></li>
+					      		<li id="navBarLabels"><a href="contact.html">Contact</a></li>
+					      	</ul>
+					    </div><!-- /closing navbar-collapse -->
+					</div><!-- closing header bar --> 
+					
+					<div class="col-lg-1"></div> <!-- creating right padding -->
+
+				</div> <!-- closing row--> 
+		  	</div><!-- closing container-fluid -->
+		</nav> <!-- closing nav bar -->
+	</header> <!-- closing header -->
+
+	<!-- all the main body content. About me sections and the connect with me box. -->
+	<div class="container-fluid">
+		<div class="row"> <!-- row for the main content and connect with me box -->
+			<div class="col-lg-1"></div> <!-- creating left padding on main body -->
+			
+			<!-- About me section -->
+			<div class="col-lg-7"> <!-- column for about me box -->
+				<div class="panel panel-default"> <!-- using panel to box all the content about me -->
+				 	<div class="panel-heading"> <!-- panel header for about me  -->
+				    	<h3 class="panel-title" id="headingMC">About Me</h3>
+					</div> <!-- closing panel header about me -->
+				  	
+				  	<div class="panel-body">
+				  		<div class="row"> <!-- sub-row to keep pic and bio in same level -->
+
+ 				  			<div class="col-lg-1"></div> <!-- left padding on about me box -->
+				  			<div class="col-lg-3"> <!-- sub-column for pic -->
+				  				<img class="img-responsive" src="Assets/images/Faras.jpg">
+				  			</div> <!-- closing my image sub-column -->
+				  			
+					  		<div class="col-lg-1"></div> <!-- padding between the picture and text in about me box -->
+
+				  			<div class="col-lg-6"> <!-- subo-column for text bio -->
+				  				<p class="classFontsize">I am Faras Ali Momin. I was born and raised in Pakistan, and moved to the United States in 2005. I did my high school in the United States, and then attended The University of Texas at Austin, where I got my Bachelor’s degree in mechanical engineering. </p>
+						
+								<p class="classFontsize">Upon college, I started working as an Applications and Early Phase Engineer for an oil and gas production equipment manufacturing and services company. While working as an engineer, I started to learn about the technical and fundamentals of the stock markets. Currently, I manage my family business, and day trade for fun. </p>
+
+								<p class="classFontsize">In October 2016, I started a Full-Stack Web Development course from UT Austin Center for Professional Education. After completion, I would like to create an algorithmic day trading software. </p>	
+				  			</div> <!-- closing text bio sub-column	 -->
+
+				  			<div class="col-lg-1"></div> <!-- right padding on about me box -->
+
+				  		</div> <!-- closing sub row for pic and bio -->			  		
+
+				  	</div> <!-- closing panel body -->
+
+				</div> <!-- closing panel box of all the about me content	 -->				
+			</div> <!-- closing about me colum -->
+				
+			<div class="col-lg-1"></div> <!-- creating gap between the section and connect with me box -->
+			
+			<!-- connect with me box  -->
+			<div class="col-lg-2">
+				<div class="panel panel-default"> <!-- panel to keep all social media links in connect with me box -->
+				 	<div class="panel-heading"> <!-- heading for connect with me box -->
+				    	<h2 class="panel-title text-center" id="headingCWMB">Connect With Me</h2>
+					</div><!--  closing connect with me box heading -->
+				  	
+				  	<div class="panel-body"> <!-- body for all the connect with me lines -->
+				  		<div class="row"> <!-- sub-row to keep all social media icons in level -->
+
+				  			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-4"> <!-- icon/link 1 for github -->
+				  				<a href="https://github.com/famomin" target="_blank"> <img class="imageclass img-responsive center-block classCWMBicons" src="Assets/images/github.png"/></a>
+				  			</div>
+		
+				  			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-4"> <!-- icon/line 2 for linkedin -->
+				  				<a href="https://www.linkedin.com/in/farasmomin" target="_blank"> <img class="imageclass img-responsive center-block classCWMBicons"  src="Assets/images/LinkedIn.png"/></a>
+				  			</div>
+
+				  			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-4"> <!-- icon/link 3 for stackoverflow -->
+				  				<a href="http://stackoverflow.com/users/7024970/famomin" target="_blank"><img class="imageclass  img-responsive center-block classCWMBicons" src="Assets/images/StackOverFlow.png"/></a>
+				  			</div>
+				  		</div> <!-- closing sub-row of social media icons -->
+				  	</div> <!-- closing body for connect with me box -->
+
+				</div>	<!-- closing panel for connect with me box -->				
+			</div> <!-- closing connect with me box column -->
+
+
+
+			<div class="col-lg-1"></div>  <!-- creating right padding on main body -->
+		</div> <!-- closing main content row -->
+		
+		<!-- Footer -->
+		<div class="row extraRowBeforeFooter"> <!-- row for footer -->
+			<div class="navbar navbar-inverse navbar-fixed-bottom" > <!-- using navbar to create footer -->
+				
+				<div class="col-lg-4"></div> <!-- left padding for footer -->
+
+				<div class="col-lg-4 navbar-text"> <!-- column for footer text  -->
+					<p class="text-center">&#169; Copyright 2016 Faras Momin</p>	
+				</div>	
+
+				<div class="col-lg-4"></div> <!-- left padding for footer -->
+
+			</div>	<!-- closing footer navbar -->
+		
+		</div> <!-- closing footer row -->
+	</div> <!-- closing contaiter-fluid  -->
+
+</body>
+</html>
