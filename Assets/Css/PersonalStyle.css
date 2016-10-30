@@ -1,0 +1,87 @@
+/* - - - - - - - - - - - - - CSS code for about me page - - - - - - - - - - - - - */
+/*about me box*/
+.bodyBackground {
+	margin:0px;
+	background:
+	linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+	linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+	linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+	linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+	linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+	linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background-color: #131313;
+	background-size: 20px 20px;
+}
+
+/*name*/
+#nameHeader {
+	padding-top: 8%;
+	font-size: 45px;
+	padding-bottom: 8%;
+}
+
+/*nave bars*/
+#navBarLabels {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-size: 20px;
+}
+
+/* main content heading*/
+#headingMC {
+	font-size: 35px;
+}
+
+/*connect with me box heading*/
+#headingCWMB {
+	font-size: 20px;
+}
+
+/* to push footer down*/
+.extraRowBeforeFooter {
+	clear: both;
+	height: 75px;
+}
+
+/*Connect With Me Box icons*/
+.classCWMBicons {
+	min-height: 30px;
+	max-height: 100%;
+	min-width: 30px;
+	max-width: 100%;
+	margin:auto;
+
+}
+
+/*font size for about me section */
+.classFontsize {
+/*	clear: both;
+*/	font-size: 18px;
+}
+
+/*Project # Image */
+.classPosImage {
+	position: relative;
+	width: 100%;
+	height:100%;
+}
+
+/* Project Labels for Portfolio Page */
+.classProjectLabel {
+	width: 100%;
+    height: 20%;
+    font-size: 15px;
+    background-color: #df691a;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    color: #ffffff ;
+    padding: 10px 0px 10px 0px;
+
+}
+
+
+/*bottom margins for connect with me form*/
+.marginBottom {
+	margin-bottom: 3%;
+}
