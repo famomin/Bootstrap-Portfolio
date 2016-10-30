@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Contact Me</title>
+	<link rel="stylesheet" type="text/css" href="Assets/Css/reset.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="Assets/Css/style.css">
+	<link rel="stylesheet" type="text/css" href="Assets/Css/PersonalStyle.css">
+
+
+</head>
+<body class="bodyBackground">
+	<!-- Header with nav and Navbar -->
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="row"> <!-- setting name and nav bar as a row inside the header -->
+					<div class="col-lg-1"></div> <!-- creating left padding -->
+		    		
+		    		<!-- header bar -->
+		    		<div class="col-lg-10">
+		    			<!-- Name and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					        	<span class="icon-bar"></span>
+					        	<span class="icon-bar"></span>
+					        	<span class="icon-bar"></span> 
+						    </button>
+					    	<p class="navbar-brand" id="nameHeader">Faras A. Momin</p>
+					    </div>
+					    
+				   		<!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+					      	<ul class="nav navbar-nav">
+					        	<li id="navBarLabels"><a href="index.html">About</a></li>
+					        	<li id="navBarLabels"><a href="portfolio.html">Portfolio</a></li>
+					      		<li id="navBarLabels"><a href="contact.html">Contact</a></li>
+					      	</ul>
+					    </div><!-- /closing navbar-collapse -->
+					</div><!-- closing header bar --> 
+					
+					<div class="col-lg-1"></div> <!-- creating right padding -->
+
+				</div> <!-- closing row--> 
+		  	</div><!-- closing container-fluid -->
+		</nav> <!-- closing nav bar -->
+	</header> <!-- closing header -->
+
+	<!-- all the main body content. About me sections and the connect with me box. -->
+	<div class="container-fluid"> 
+		<div class="row"> <!-- row for contact me and connect with me sections -->
+			<div class="col-lg-1"></div> <!-- creating left padding on body -->
+			
+			<!-- Contact me section -->
+			<div class="col-lg-7"> <!-- column for contact me  -->
+				<div class="panel panel-default"> <!-- using panel to box all the contact me -->
+				 	<div class="panel-heading"> <!-- panel header for contact me  -->
+				    	<h3 class="panel-title" id="headingMC">Contact Me</h3>
+					</div>
+				  	
+				  	<div class="panel-body"> <!-- body of contact me section -->
+
+				  		<!-- row 1 for name -->
+				  		<div class="marginBottom row">
+				  			<div class="col-sm-1 col-md-1 col-lg-1"></div>  <!-- for extra padding -->
+	
+							<!-- user icon -->
+				  			<div class="col-sm-1 col-md-1 col-lg-1">
+				  				<i class="fa fa-user fa-3x" aria-hidden="true"></i>
+				  			</div> 
+							
+							<!-- user input name -->
+							<div class="col-sm-9 col-md-9 col-lg-9">
+								<input id="fname" name="name" type="text" placeholder="Full Name" class="form-control">
+							</div>
+				  		</div> <!-- closing name sub-row -->
+
+				  		<!-- row 2 for email -->
+				  		<div class="marginBottom row">
+				  			<div class="col-sm-1 col-md-1 col-lg-1"></div>  <!-- for extra padding -->
+	
+							<!-- envelope icon -->
+				  			<div class="col-sm-1 col-md-1 col-lg-1">
+				  				<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+				  			</div> 
+							
+							<!-- user email address -->
+							<div class="col-sm-9 col-md-9 col-lg-9">
+								<input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+							</div>
+				  		</div> <!-- closing email sub-row -->
+
+				  		<!-- row 3 for phone number -->
+				  		<div class="marginBottom row">
+				  			<div class="col-sm-1 col-md-1 col-lg-1"></div>  <!-- for extra padding -->
+	
+							<!-- mobile icon -->
+				  			<div class="col-sm-1 col-md-1 col-lg-1">
+				  				<i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
+
+				  			</div> 
+							
+							<!-- input phone number-->
+							<div class="col-sm-9 col-md-9 col-lg-9">
+								<input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+							</div>
+				  		</div> <!-- closing mobile/phone number sub-row -->
+						
+						<!-- row 4 box for message -->
+				  		<div class="marginBottom row">
+				  			<div class="col-sm-1 col-md-1 col-lg-1"></div>  <!-- for extra padding -->
+	
+							<!-- message icon -->
+				  			<div class="col-sm-1 col-md-1 col-lg-1">
+				  				<i class="fa fa-comment-o fa-3x" aria-hidden="true"></i>
+				  			</div> 
+							
+							<!-- user input name -->
+							<div class="col-sm-9 col-md-9 col-lg-9">
+								<textarea class="form-control" id="message" name="message" placeholder="Please enter your message/comments here. I will try my best to respond withing 24 hours. Thank you." rows="7"></textarea>
+							</div>							
+				  		</div> <!-- closing row for message/comment -->
+						
+						<!-- submit button -->
+						<div class="marginBottom row">
+ 							<div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                            </div>
+						</div> <!-- closing row for submit button -->
+
+				  	</div> <!-- closing contact me panel body -->
+
+				</div> <!-- closing contact me panel	 -->			
+			</div> <!-- closing column for contat me section -->
+				
+			<div class="col-lg-1"></div> <!-- creating gap between the section and Aside -->
+			
+			<!-- connect with me box  -->
+			<div class="col-lg-2">
+				<div class="panel panel-default"> <!-- panel to keep all social media links in connect with me box -->
+				 	<div class="panel-heading"> <!-- heading for connect with me box -->
+				    	<h2 class="panel-title text-center" id="headingCWMB">Connect With Me</h2>
+					</div><!--  closing connect with me box heading -->
+				  	
+				  	<div class="panel-body"> <!-- body for all the connect with me lines -->
+				  		<div class="row"> <!-- sub-row to keep all social media icons in level -->
+
+				  			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-4"> <!-- icon/link 1 for github -->
+				  				<a href="https://github.com/famomin" target="_blank"> <img class="imageclass img-responsive center-block classCWMBicons" src="Assets/images/github.png"/></a>
+				  			</div>
+		
+				  			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-4"> <!-- icon/line 2 for linkedin -->
+				  				<a href="https://www.linkedin.com/in/farasmomin" target="_blank"> <img class="imageclass img-responsive center-block classCWMBicons"  src="Assets/images/LinkedIn.png"/></a>
+				  			</div>
+
+				  			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-4"> <!-- icon/link 3 for stackoverflow -->
+				  				<a href="http://stackoverflow.com/users/7024970/famomin" target="_blank"><img class="imageclass  img-responsive center-block classCWMBicons" src="Assets/images/StackOverFlow.png"/></a>
+				  			</div>
+				  		</div> <!-- closing sub-row of social media icons -->
+				  	</div> <!-- closing body for connect with me box -->
+
+				</div>	<!-- closing panel for connect with me box -->				
+			</div> <!-- closing connect with me box column -->
+
+
+			<div class="col-lg-1"></div> <!-- creating right bar gap -->
+		</div>
+		
+		<!-- Footer -->
+		<div class="row extraRowBeforeFooter"> <!-- row for footer -->
+			<div class="navbar navbar-inverse navbar-fixed-bottom" > <!-- using navbar to create footer -->
+				
+				<div class="col-lg-4"></div> <!-- left padding for footer -->
+
+				<div class="col-lg-4 navbar-text"> <!-- column for footer text  -->
+					<p class="text-center">&#169; Copyright 2016 Faras Momin</p>	
+				</div>	
+
+				<div class="col-lg-4"></div> <!-- left padding for footer -->
+
+			</div>	<!-- closing footer navbar -->
+		
+		</div> <!-- closing footer row -->
+	</div> <!-- closing contaiter-fluid  -->
+
+</body>
+</html>
